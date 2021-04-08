@@ -1,9 +1,9 @@
 .wrapper{
-    margin: 2px;
+    margin: 5px;
 }
 
-body{
-    background-image:url("../../HTMLCSSPreWork/3-Assets/kastappbg.jpg");
+.body{
+    background-image:url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
     position: relative;
     width: 100%;
     height: auto;
@@ -18,20 +18,99 @@ body{
 }
 
 .header {
-    width: 100%;
+    width: auto;
+    height: auto;
     position: relative;
-    max-width: none;
+    max-width: 10px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-.logo.top {
+.topLogo{
     position: relative;
-    z-index: 0;
-    width: 201px;
-    height: auto;
-    margin-top: -300px;
-    margin-left: 0px;
+    z-index: 1;
+    height: 250px;
+    width: 250px;
+    margin-top: -875px;
+    margin-left: 20px;
+    transition: transform .2s;
+}
+
+.topLogo:hover {
+  transform: scale(1.07);
+}
+
+.nav ul {
+  float: right;
+  position: relative;
+  z-index: 1;
+  font-family:'Roboto', sans-serif;
+  font-size: 19px;
+  color: #fff;
+  margin-top: -150px;
+  margin-right: 150px;
+  line-height: 35px;
+}
+
+.nav li {
+  display: inline;
+  padding: 28px;
+}
+
+.openButton {
+  z-index: 1;
+  position: relative;
+  float: right;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  color: white;
+  padding: 1px 5px 1px 5px;
+  letter-spacing: 1px;
+  margin-top: -150px;
+  margin-right: 30px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family:'Roboto', sans-serif;
+  transition: transform .2s;
+}
+
+.openButton:hover {
+  transform: scale(1.04);
+}
+
+#underline:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.openButtonOrange {
+  z-index: 1;
+  position: relative;
+  background-color: #ff9500;
+  color: white;
+  padding: 10px 75px 10px 75px;
+  letter-spacing: 3px;
+  margin-top: -150px;
+  margin-bottom: -1000px;
+  margin-left: 900px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
+  transition: transform .2s;
+}
+
+.openButtonOrange:hover {
+  transform: scale(1.02);
 }
