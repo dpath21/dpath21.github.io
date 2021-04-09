@@ -1,31 +1,16 @@
-.wrapper{
-    margin: 5px;
+body {
+  margin: 0px;
 }
 
-.body{
+.topBackdrop{
     background-image:url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
-    position: relative;
-    width: 100%;
-    height: auto;
+    position: static;
     min-height: 700px;
     padding-top: 40px;
     padding-bottom: 60px;
     background-color: #000;
     background-position: 50% 50%;
     background-size: cover;
-    border: 0px none transparent;
-    border-radius: 0px;
-}
-
-.header {
-    width: auto;
-    height: auto;
-    position: relative;
-    max-width: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 .topLogo{
@@ -56,7 +41,7 @@
 
 .nav li {
   display: inline;
-  padding: 28px;
+  padding: 20px;
 }
 
 .openButton {
@@ -92,6 +77,35 @@ a:link {
   text-decoration: none;
 }
 
+.laptop {
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  width: 33%;
+}
+
+.introText {
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
+  margin-top: -20px;
+  margin-left: 747px;
+}
+
+.subtext {
+  font-size: 22px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  font-weight: normal;
+  margin-right: 810px;
+  margin-top: -10px;
+}
+
 .openButtonOrange {
   z-index: 1;
   position: relative;
@@ -99,9 +113,9 @@ a:link {
   color: white;
   padding: 10px 75px 10px 75px;
   letter-spacing: 3px;
-  margin-top: -150px;
-  margin-bottom: -1000px;
-  margin-left: 900px;
+  margin-top: 15px;
+  margin-bottom: 500px;
+  margin-left: 884px;
   line-height: 35px;
   text-align: center;
   display: inline-block;
@@ -115,4 +129,4 @@ a:link {
   transform: scale(1.02);
 }
 
-/*end css code 4.8.21 1230am repo-v2*/
+/*end code 4-8-21 1130pm*/
