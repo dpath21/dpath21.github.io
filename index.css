@@ -2,6 +2,11 @@ body {
   margin: 0px;
 }
 
+#center {
+ max-width: 500px;
+  margin: auto;
+}
+
 .topBackdrop{
     background-image:url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
     position: static;
@@ -11,6 +16,10 @@ body {
     background-color: #000;
     background-position: 50% 50%;
     background-size: cover;
+}
+
+.purpleSection {
+  margin-top: -45px;
 }
 
 .topLogo{
@@ -81,29 +90,24 @@ a:link {
   z-index: 1;
   position: relative;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -60px;
-  width: 33%;
 }
 
 .introText {
-  font-size: 25px;
   font-weight: bold;
+  font-size: 19px;
   font-family:'Roboto', sans-serif;
-  margin-top: -20px;
-  margin-left: 710px;
+  color: white;
+  margin-left: 830px;
 }
 
 .subtext {
-  font-size: 22px;
-  position: relative;
-  z-index: 1;
+  font-size: 21px;
+  color: white;
   text-align: center;
   font-family:'Roboto', sans-serif;
   font-weight: normal;
-  margin-right: 500px;
-  margin-top: -10px;
+  max-width: 600px;
+  margin-left: -80px;
 }
 
 .openButtonOrange {
@@ -111,14 +115,13 @@ a:link {
   position: relative;
   background-color: #ff9500;
   color: white;
-  padding: 10px 75px 10px 75px;
   letter-spacing: 3px;
-  margin-top: 15px;
-  margin-bottom: 500px;
-  margin-left: 884px;
   line-height: 35px;
+  width: 175px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 933px;
+  margin-top: -20px;
   text-align: center;
-  display: inline-block;
   font-size: 20px;
   font-weight: bold;
   font-family:'Roboto', sans-serif;
@@ -129,4 +132,64 @@ a:link {
   transform: scale(1.02);
 }
 
-/*end code 4-8-21 1130pm*/
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 210px;
+  row-gap: 100px;
+  margin-left: 25%;
+}
+
+.featuredIn {
+  background-color: white;
+  min-height: 200px;
+  margin-top: -85px;
+}
+
+.featuredInBoxText {
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
+  color: black;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+.quoteText {
+  font-weight: normal;
+  font-size: 22px;
+  font-family:'Roboto', sans-serif;
+  color: black;
+  margin-left: 31%;
+  margin-top: 5%;
+}
+
+.tealAbout {
+  background-image:url("https://www.kastapp.co/images/green-bg.jpg");
+    position: static;
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.tealTitle {
+  font-weight: bold;
+  font-size: 50px;
+  font-family:'Roboto', sans-serif;
+  color: white;
+  position: relative;
+  margin-left: 45%;
+}
+
+.tealBodyText {
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  font-weight: normal;
+  max-width: 1000px;
+  margin-left: 550px;
+}
+
+/*end code 4/10 150AM*/
